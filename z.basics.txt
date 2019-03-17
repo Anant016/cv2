@@ -1,0 +1,20 @@
+import numpy
+import cv2
+img=cv2.imread("a.jpg",1)
+cv2.namedWindow("Image",cv2.WINDOW_NORMAL)
+cv2.imshow('Image',img)
+cv2.waitKey(0)
+....................................................................
+cv2.moveWindow('Image',0,0)
+height,width,channels=color.shape
+................................................................
+GaussianBlur
+dilatiob
+erosion
+..........................................
+hsv
+gray
+................................
+scaling
+rotating
+..............................
